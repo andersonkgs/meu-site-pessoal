@@ -13,7 +13,11 @@ a {
     text-decoration: none;
 }
 
-a:hover {
+.contact-email a:hover {
+    background-color: #CC580A;
+}
+
+.contact-phone a:hover {
     background-color: #CC580A;
 }
 
