@@ -21,7 +21,7 @@ a {
     background-color: #CC580A;
 }
 
-.contact-message, .contact-email, .contact-phone {
+.contact-message {
     width: 380px;
     padding: 10px;
     border-style: outset;
@@ -29,6 +29,38 @@ a {
     border-color: #CC580A;
     border-radius: 10px;
     background-color: #c2bdba;
+}
+
+.contact-email {
+    width: 380px;
+    padding: 10px;
+    border-style: outset;
+    border-width: 5px;
+    border-color: #CC580A;
+    border-radius: 10px;
+    background-color: #c2bdba;
+}
+
+.contact-phone {
+    width: 380px;
+    padding: 10px;
+    border-style: outset;
+    border-width: 5px;
+    border-color: #CC580A;
+    border-radius: 10px;
+    background-color: #c2bdba;
+}
+
+@media (max-width:768px) {
+    .contact-message {
+        max-width: 350px;
+    }
+    .contact-email {
+        max-width: 350px;
+    }
+    .contact-phone {
+        max-width: 350px;
+    }
 }
 
 .submit {
@@ -46,25 +78,3 @@ a {
 #submit-contact {
     margin: 0 auto;
 }
-
-/*.contact-email {
-    width: 380px;
-    margin: 5px;
-    padding: 10px;
-    border-style: outset;
-    border-width: 5px;
-    border-color: #CC580A;
-    border-radius: 10px;
-    background-color: #c2bdba;
-}
-
-.contact-phone {
-    width: 380px;
-    margin: 5px;
-    padding: 10px;
-    border-style: outset;
-    border-width: 5px;
-    border-color: #CC580A;
-    border-radius: 10px;
-    background-color: #c2bdba;
-}Vê se é melhor deixar separado ou num só*/

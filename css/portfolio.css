@@ -1,6 +1,6 @@
 .portfolio img {
+    max-width: 250px;
     height: 160px;
-    width: 250px;
     border-radius: 15px;
     display: flex;
     float: left;
@@ -9,10 +9,9 @@
 }
 
 .portfolio {
-    width: 60vw;
-    height: 20vh;
+    min-width: 40vw;
+    max-height: 20vh;
     padding: 10px;
-    font-weight: bold;
     text-align: left;
     border-style: outset;
     border-width: 5px;
@@ -22,6 +21,17 @@
     display: flex;
     flex-direction: column;
     row-gap: 12px;
+}
+
+@media (max-width:667px) {
+    .portfolio img {
+        max-width: 200px;
+        max-height: 120px;
+    }
+    .portfolio {
+        min-width: 40vw;
+        max-height: 40vh;
+    }
 }
 
 .portfolio a {
