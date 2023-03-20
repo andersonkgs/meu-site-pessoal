@@ -48,20 +48,20 @@
             <div class="container-contents">
                 <div class="contact-message">
                     <strong>Mensagem:</strong>
-                    <form action="">
+                    <form onsubmit="event.preventDefault()">
                         <fieldset>
                             <label for="input-name">Nome:</label>
-                            <input type="text" name="input-name" id="input-name">
+                            <input type="text" name="input-name" id="input-name" required minlength="2">
                             <small>Escreva seu nome completo, por favor.</small>
                         </fieldset>
                         <fieldset>
                             <label for="input-email">E-mail:</label>
-                            <input type="email" name="input-email" id="input-email">
+                            <input type="email" name="input-email" id="input-email" required>
                             <small>Escreva seu e-mail, por favor.</small>
                         </fieldset>
                         <fieldset>
-                            <label for="input-phone">Telefone:</label>
-                            <input type="tel" name="input-phone" id="input-phone">
+                            <label for="input-tel">Telefone:</label>
+                            <input type="tel" name="input-tel" id="input-tel" placeholder="(99) 99999-9999" required pattern="^\(\d{2}\) \d{5}-\d{4}$" maxlength="15">
                             <small>Escreva seu número de telefone com DDD, por favor.</small>
                         </fieldset>
                         <fieldset>
@@ -69,7 +69,7 @@
                             <textarea name="input-msg" id="input-msg" cols="50" rows="10"></textarea>
                             <small>Escreva sua mensagem, por favor.</small>
                         </fieldset>
-                        <input class="submit" id="submit-contact" type="submit" value="ENVIAR">
+                        <input class="submit" id="submit-contact" type="submit" value="ENVIAR" onclick="enviarFormulario()">
                     </form>
                 </div>
                 <div class="contact-email">
@@ -87,5 +87,6 @@
             <small>Desenvolvido por Anderson Silva para o Curso Comeia Academy - 2023.</small>
         </footer>
     </section>
+    <script src="../scripts/script.js"></script>
 </body>
 </html>

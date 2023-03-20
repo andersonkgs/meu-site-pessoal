@@ -78,3 +78,7 @@ a {
 #submit-contact {
     margin: 0 auto;
 }
+
+.invalid {
+    border: 2px solid #ff0000;
+}
