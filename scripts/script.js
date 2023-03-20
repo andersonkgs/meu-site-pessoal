@@ -43,7 +43,7 @@ campoTelefone.addEventListener('input', function () {
 });
 
 function enviarParaWhatsApp() {
-    const nome = document.getElementById('input-nome').value;
+    const nome = document.getElementById('input-name').value;
     const email = document.getElementById('input-email').value;
     const telefone = document.getElementById('input-tel').value;
     const mensagem = document.getElementById('input-msg').value;
