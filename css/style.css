@@ -27,12 +27,12 @@
     }
 }
 
-.perfil img {
+.profile img {
     height: 150px;
     border-radius: 50%;
 }
 
-.perfil {
+.profile {
     padding: 35px 0px;
     display: grid;
     place-items: center;
