@@ -6,6 +6,12 @@
     font-family: 'Quicksand', sans-serif;
 }
 
+body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
 header {
     width: 100%;
     display: grid;
@@ -27,11 +33,6 @@ header {
     }
 }
 
-.profile img {
-    height: 150px;
-    border-radius: 50%;
-}
-
 .profile {
     padding: 35px 0px;
     display: grid;
@@ -39,11 +40,16 @@ header {
     row-gap: 15px;
 }
 
-.subheader {
-    height: 100%;
+.profile img {
+    height: 150px;
+    border-radius: 50%;
+}
+
+.menu {
+    background-color: #c2bdba;
     width: 100%;
-    display: grid;
-    grid-template-rows: 10fr 2fr;
+    display: flex;
+    justify-content: space-between;
 }
 
 .button {
@@ -70,11 +76,11 @@ header {
     background-color: #FF6E0D;
 }
 
-.menu {
-    background-color: #c2bdba;
+.subheader {
+    height: 100%;
     width: 100%;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-rows: 10fr 2fr;
 }
 
 .info {
@@ -96,12 +102,6 @@ header {
 .content-page {
     height: 100%;
     width: 100%;
-}
-
-body {
-    height: 100%;
-    width: 100%;
-    overflow-x: hidden;
 }
 
 .container-contents {

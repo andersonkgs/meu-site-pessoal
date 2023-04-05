@@ -1,3 +1,13 @@
+.contact-message {
+    width: 380px;
+    padding: 10px;
+    border-style: outset;
+    border-width: 5px;
+    border-color: #CC580A;
+    border-radius: 10px;
+    background-color: #c2bdba;
+}
+
 form fieldset {
     border: 0;
     margin: 10px;
@@ -11,56 +21,6 @@ form fieldset label, input, textarea {
 
 a {
     text-decoration: none;
-}
-
-.contact-email a:hover {
-    background-color: #CC580A;
-}
-
-.contact-phone a:hover {
-    background-color: #CC580A;
-}
-
-.contact-message {
-    width: 380px;
-    padding: 10px;
-    border-style: outset;
-    border-width: 5px;
-    border-color: #CC580A;
-    border-radius: 10px;
-    background-color: #c2bdba;
-}
-
-.contact-email {
-    width: 380px;
-    padding: 10px;
-    border-style: outset;
-    border-width: 5px;
-    border-color: #CC580A;
-    border-radius: 10px;
-    background-color: #c2bdba;
-}
-
-.contact-phone {
-    width: 380px;
-    padding: 10px;
-    border-style: outset;
-    border-width: 5px;
-    border-color: #CC580A;
-    border-radius: 10px;
-    background-color: #c2bdba;
-}
-
-@media (max-width:768px) {
-    .contact-message {
-        max-width: 350px;
-    }
-    .contact-email {
-        max-width: 350px;
-    }
-    .contact-phone {
-        max-width: 350px;
-    }
 }
 
 .submit {
@@ -81,4 +41,44 @@ a {
 
 .invalid {
     border: 2px solid #ff0000;
+}
+
+.contact-email {
+    width: 380px;
+    padding: 10px;
+    border-style: outset;
+    border-width: 5px;
+    border-color: #CC580A;
+    border-radius: 10px;
+    background-color: #c2bdba;
+}
+
+.contact-email a:hover {
+    background-color: #CC580A;
+}
+
+.contact-phone {
+    width: 380px;
+    padding: 10px;
+    border-style: outset;
+    border-width: 5px;
+    border-color: #CC580A;
+    border-radius: 10px;
+    background-color: #c2bdba;
+}
+
+.contact-phone a:hover {
+    background-color: #CC580A;
+}
+
+@media (max-width:768px) {
+    .contact-message {
+        max-width: 350px;
+    }
+    .contact-email {
+        max-width: 350px;
+    }
+    .contact-phone {
+        max-width: 350px;
+    }
 }

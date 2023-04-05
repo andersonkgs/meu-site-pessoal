@@ -1,13 +1,3 @@
-.portfolio img {
-    max-width: 270px;
-    height: 150px;
-    border-radius: 10px;
-    display: flex;
-    float: left;
-    padding: 5px;
-    margin: 1px 10px 0px 0px;
-}
-
 .portfolio {
     min-width: 40vw;
     max-height: 20vh;
@@ -23,6 +13,20 @@
     row-gap: 12px;
 }
 
+.portfolio img {
+    max-width: 270px;
+    height: 150px;
+    border-radius: 10px;
+    display: flex;
+    float: left;
+    padding: 5px;
+    margin: 1px 10px 0px 0px;
+}
+
+.portfolio a {
+    text-decoration: none;
+}
+
 @media (max-width:667px) {
     .portfolio img {
         max-width: 200px;
@@ -32,8 +36,4 @@
         min-width: 40vw;
         max-height: 40vh;
     }
-}
-
-.portfolio a {
-    text-decoration: none;
 }
